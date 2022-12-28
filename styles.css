@@ -1,0 +1,41 @@
+h1{
+    background:purple;
+    color:white;
+    font-size:36px;
+    line-height:40px;
+    padding:5px;
+  } 
+  li {
+      border: 3px solid purple;
+      border-collapse: collapse;
+    }
+  
+  @media screen and (min-width: 600px) and (max-width: 800px) 
+  {
+    h1{
+      background:blue;
+      color:black;
+      font-size: 32px;
+      line-heigh: 36px;
+    }
+    ul {
+      list-style:square;
+    }
+    li {
+      border-color: blue;
+    }
+   }
+  *{
+    background:pink;
+  }
+   p{
+      color:black;
+      font-size:28px;
+    }
+  table, td, th {
+    border:2px solid black;
+    border-collapse:collapse;
+  }
+  td, th {
+    padding:4px;
+  }
