@@ -4,6 +4,7 @@ h1{
     font-size:36px;
     line-height:40px;
     padding:5px;
+    text-shadow: 0 0 9px #FF0000;
   } 
   li {
       border: 3px solid purple;
